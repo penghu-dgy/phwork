@@ -14,9 +14,23 @@ import org.springframework.test.context.junit4.SpringRunner;
 //@SpringBootTest(classes = Application.class)
 public class RabbitMqHelloTest {
 
+
 // 
    int a ;
    int b
+=======
+
+
+public int getMessage(){
+	int a = 3;
+	return a;
+}
+public static void main(String[] args) {
+	System.out.println("sunping");	
+}
+
+
+
 
 }
 
