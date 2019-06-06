@@ -2,6 +2,7 @@ package com.dgy.test;
 
 import com.dgy.Application;
 import com.dgy.mq.HelloSender;
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,20 +15,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class RabbitMqHelloTest {
 
 // 
-  //  @Autowired
-
-
-public int getMessage(){
-	int a = 3;
-	return a;
-}
-
-public static void main(String[] args) {
-
-    System.out.println("sunping de  push2222");
-    System.out.println("xufuli");
-    System.out.println("ahhaha");
-}
 
 
 }
