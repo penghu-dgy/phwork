@@ -6,16 +6,6 @@ public class RabbitMqHelloTest {
 
 
 
-//    @Autowired
-//    private HelloSender helloSender;
-//    zhanpengxiang
-//
-//    @Test
-//    public void hello() throws Exception {
-//        helloSender.send();
-//    }
-
-  //  @Autowired
 
 public static void main(String[] args) {
 
@@ -27,7 +17,10 @@ public static void main(String[] args) {
 
 
 this is  written by penghu 
+this is  written by penghu 2222
+this is  written by penghu 333
 
 
+this is  written by penghu 333
 }
 
