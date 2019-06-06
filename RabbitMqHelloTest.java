@@ -20,6 +20,9 @@ public class RabbitMqHelloTest {
 //    public void hello() throws Exception {
 //        helloSender.send();
 //    }
+public static void main(String[] args) {
+    System.out.println("sunping de  push");
+}
 
 }
 
