@@ -15,7 +15,7 @@ public class RabbitMqHelloTest {
 
 //    @Autowired
 //    private HelloSender helloSender;
-//zhanpengxiang
+//    zhanpengxiang
 //
 //    @Test
 //    public void hello() throws Exception {
@@ -28,6 +28,7 @@ public static void main(String[] args) {
 
     System.out.println("sunping de  push");
     System.out.println("xufuli");
+	system.out.println("zhangpengxiang1");
 }
 
 
