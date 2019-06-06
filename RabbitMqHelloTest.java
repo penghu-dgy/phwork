@@ -15,18 +15,30 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class RabbitMqHelloTest {
 
 
+
+//    @Autowired
+//    private HelloSender helloSender;
+//    zhanpengxiang
+//
+//    @Test
+//    public void hello() throws Exception {
+//        helloSender.send();
+//    }
+
+  //  @Autowired
+
 // 
    int a ;
    int b
-=======
 
 
-public int getMessage(){
-	int a = 3;
-	return a;
-}
+
+
 public static void main(String[] args) {
-	System.out.println("sunping");	
+
+    System.out.println("sunping de  push");
+	system.out.println("zhangpengxiang1");
+	system.out.println("z");
 }
 
 
