@@ -15,6 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class RabbitMqHelloTest {
 
 
+
 //    @Autowired
 //    private HelloSender helloSender;
 //    zhanpengxiang
@@ -26,11 +27,20 @@ public class RabbitMqHelloTest {
 
   //  @Autowired
 
+// 
+   int a ;
+   int b
+
+
+
+
 public static void main(String[] args) {
 
     System.out.println("sunping de  push");
 	system.out.println("zhangpengxiang1");
+	system.out.println("z");
 }
+
 
 
 
