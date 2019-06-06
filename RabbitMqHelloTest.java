@@ -20,6 +20,7 @@ public class RabbitMqHelloTest {
 //    public void hello() throws Exception {
 //        helloSender.send();
 //    }
+    @Autowired
 
 }
 
