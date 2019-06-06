@@ -2,6 +2,7 @@ package com.dgy.test;
 
 import com.dgy.Application;
 import com.dgy.mq.HelloSender;
+import com.sun.org.apache.xerces.internal.util.SynchronizedSymbolTable;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +14,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 //@SpringBootTest(classes = Application.class)
 public class RabbitMqHelloTest {
 
-//    @Autowired
-//    private HelloSender helloSender;
-//
-//    @Test
-//    public void hello() throws Exception {
-//        helloSender.send();
-//    }
+// 
+
 
 this is  written by penghu 
 
