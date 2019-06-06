@@ -26,6 +26,7 @@ public class RabbitMqHelloTest {
 public static void main(String[] args) {
 
     System.out.println("sunping de  push");
+    System.out.println("xufuli");
 }
 
 
