@@ -15,6 +15,11 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class RabbitMqHelloTest {
 
 
+// 
+   int a ;
+   int b
+=======
+
 
 public int getMessage(){
 	int a = 3;
