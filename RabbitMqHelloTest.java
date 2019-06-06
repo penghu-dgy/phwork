@@ -15,6 +15,7 @@ public class RabbitMqHelloTest {
 
 //    @Autowired
 //    private HelloSender helloSender;
+//zhanpengxiang
 //
 //    @Test
 //    public void hello() throws Exception {
