@@ -22,6 +22,7 @@ public static void main(String[] args) {
 	system.out.println("zhangpengxiang1");
 	system.out.println("z");
 	String str = "haha";
+	System.out.println(jidhoisjdf);
 }
 
 
