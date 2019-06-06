@@ -11,6 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 //@RunWith(SpringJUnit4ClassRunner.class)
 //@SpringBootTest(classes = Application.class)
+//作者：陈骞
 public class RabbitMqHelloTest {
 
 //    @Autowired
