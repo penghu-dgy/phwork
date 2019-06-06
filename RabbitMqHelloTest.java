@@ -18,6 +18,7 @@ public class RabbitMqHelloTest {
 
 
 this is  written by penghu 
+this is  written by penghu 2
 
 }
 
