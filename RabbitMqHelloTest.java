@@ -22,5 +22,13 @@ public class RabbitMqHelloTest {
 //        helloSender.send();
 //    }
 
+  //  @Autowired
+
+public static void main(String[] args) {
+
+    System.out.println("sunping de  push");
+}
+
+
 }
 
