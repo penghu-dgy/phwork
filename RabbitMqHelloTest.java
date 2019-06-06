@@ -6,6 +6,7 @@ public class RabbitMqHelloTest {
 
 
 
+
 //    @Autowired
 //    private HelloSender helloSender;
 //    zhanpengxiang
@@ -24,6 +25,7 @@ public static void main(String[] args) {
 	String str = "haha";
 	System.out.println(jidhoisjdf);
 }
+
 
 
 
