@@ -1,50 +1,34 @@
-
-
 package com.dgy.test;
-
 public class RabbitMqHelloTest {
-
-
-this is written by sunping
-
-
-this is  written by penghu 
-this is  written by penghu 2222
-this is  written by penghu 333
-
-
-//    @Autowired
-//    private HelloSender helloSender;
-//    zhanpengxiang
-//
+//    @Autowired	chenqian
+//    @Autowired	zhanpengxiang
+//	  @Autowired	sunping
 //    @Test
-//    public void hello() throws Exception {
-//        helloSender.send();
-//    }
+    private final static String QUEUE_NAME = "hello";
 
-  //  @Autowired
-
-public static void main(String[] args) {
-    System.out.println("！！????");
-	System.out.println("suwwsh");
-
-    System.out.println("su de  push");
-    System.out.println("xuasdhhhhhfuli");
-
-
-	system.out.println("zhangpengxiang1");
-	system.out.println("z");
-	String str = "haha";
-	System.out.println(jidhoisjdf);
-
-}
-
-
-
-
-
-
-
+	public static void main(String[] args) throws IOException {
+		/**
+		 * 创建连接连接到MabbitMQ
+		 */
+		ConnectionFactory factory = new ConnectionFactory();
+		// 设置MabbitMQ所在主机ip或者主机名
+		factory.setHost("127.0.0.1");
+		// 创建一个连接
+		Connection connection = factory.newConnection();
+		// 创建一个频道
+		Channel channel = connection.createChannel();
+		// 指定一个队列
+		channel.queueDeclare(QUEUE_NAME, false, false, false, null);
+		// 发送的消息
+		String message = "hello world!Ladies and gentlemen\n" +
+				"\n";
+		// 往队列中发出一条消息
+		channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
+		System.out.println(" [x] Sent '" + message + "'");
+		// 关闭频道和连接
+		channel.close();
+		connection.close();
+	}
 }
 
 
