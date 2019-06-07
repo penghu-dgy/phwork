@@ -20,8 +20,7 @@ public class RabbitMqHelloTest {
 		// 指定一个队列
 		channel.queueDeclare(QUEUE_NAME, false, false, false, null);
 		// 发送的消息
-		String message = "hello world!Ladies and gentlemen\n" +
-				"\n";
+		String message = "hello world!Ladies and gentlemen";
 		// 往队列中发出一条消息
 		channel.basicPublish("", QUEUE_NAME, null, message.getBytes());
 		System.out.println(" [x] Sent '" + message + "'");
